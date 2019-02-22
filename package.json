@@ -1,11 +1,12 @@
 {
-  "name": "paginator",
+  "name": "mahesh-react-pagination",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch --mode='development'",
-    "prod": "webpack --mode='production'"
+    "prod": "webpack --mode='production'",
+    "prepare": "npm run prod"
   },
   "author": "Mahesh Ramaiah",
   "license": "ISC",

@@ -1,5 +1,5 @@
 import React from 'react';
-import Paginator from '../..';
+import Paginator from 'mahesh-react-pagination';
 
 class App extends React.Component {
   constructor() {

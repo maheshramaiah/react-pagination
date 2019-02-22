@@ -1,0 +1,6 @@
+lib
+playground
+node_modules
+.gitignore
+index.js.map
+webpack.config.js

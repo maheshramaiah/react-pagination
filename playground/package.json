@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "express": "^4.16.3",
+    "mahesh-react-pagination": "^1.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   }
