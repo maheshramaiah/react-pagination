@@ -61,4 +61,4 @@
       afterLoad={(data) => console.log(data))}
     />
 
-![Example](./example.png | width=500)
+<img src="./example.png" width="500">
