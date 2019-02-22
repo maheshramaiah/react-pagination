@@ -13,10 +13,10 @@
 	- pageSize -> no. of elements in page
 	- beforeLoad -> function that calls before paginating
 	- afterLoad -> function that calls after pagination with passes data to consumer
-	- remote -> boolean flagm which indicates whether stratic or remote pagination
+	- remote -> boolean flag which indicates static or remote pagination
 
 - Static Pagination
-	- resKey -> if api response is not a array, then this key indicates they key in api repsonse which has data array
+	- resKey -> if api response is not a array, then this key indicates the key in api repsonse which has data array
 
 - Remote Pagination
 	- totalItemsKey -> key in api response which has total no. of elements info
@@ -61,4 +61,4 @@
       afterLoad={(data) => console.log(data))}
     />
 
-![Example](./example.png)
+![Example](./example.png | width=500)
