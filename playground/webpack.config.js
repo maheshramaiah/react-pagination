@@ -1,4 +1,6 @@
-export default {
+const path = require('path');
+
+module.exports = {
 	mode: 'development',
 	devtool: 'source-map',
 	entry: './src/index.js',
@@ -16,7 +18,12 @@ export default {
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
-				use: 'babel-loader'
+				use: {
+					loader: 'babel-loader',
+					options: {
+						presets: ['@babel/preset-env', '@babel/preset-react']
+					}
+				}
 			},
 			{
 				test: /(\.scss)$/,
@@ -33,5 +40,8 @@ export default {
 				]
 			}
 		]
+	},
+	devServer: {
+		contentBase: path.join(__dirname, 'src')
 	}
 }
