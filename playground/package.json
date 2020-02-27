@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "prod": "webpack-dev-server --mode='production'"
+    "prod": "webpack --mode='production'"
   },
   "author": "Mahesh Ramaiah",
   "license": "ISC",
